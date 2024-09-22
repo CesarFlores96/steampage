@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="shortcut icon"
+    href="../icons8-steam-120.png"
+    type="image/x-icon"
+  />
+    <title>Steam - Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1b2838;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background-color: #171a21;
+            padding: 2rem;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            width: 300px;
+        }
+        a {
+            text-decoration: none;
+            color: rgb(55, 131, 245);
+            font-weight: 500;
+          }
+
+        h2,label{
+            color: rgb(169, 211, 247);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h2>Nueva Cuenta</h2>
+        </div>
+        <form action="../index.html">
+            <div>
+                <label for="name">Nombres</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="last-name">Apellidos</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div >
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div >
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div >
+                <input type="checkbox" id="recordar" name="recordar">
+                <label for="recordar">Recordar</label>
+            </div>
+            <button type="submit"  >Ingresar</button>
+        </form>
+        <nav>
+            <ul>
+              <li><a href="../index.html">Inicio</a></li>
+            </ul>
+          </nav>
+    </div>
+</body>
+</html>

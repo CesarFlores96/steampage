@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./icons8-steam-120.png"
+      type="image/x-icon"
+    />
+    <title>Web</title>
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+
+        background-color: #1b2838;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 50;
+      }
+      h1,
+      h2,h3,
+      p {
+        color: rgb(204, 210, 214);
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(55, 131, 245);
+        font-weight: 500;
+      }
+      contenedor{
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        margin: 10px;
+      }
+      footer{
+        margin-top: 30px;
+      }
+    </style>
+    <header>
+      <br />
+      <img src="./img/logo_steam.svg" width="180" style="margin: 10px" />
+      <h1>Steam</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="./src/juegos.html">Juegos</a></li>
+          <li><a href="./src/perfil.html">Perfil</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <video
+            loop
+            muted
+            autoplay
+            src="https://shared.akamai.steamstatic.com/store_item_assets/steam/clusters/frontpage/b5edc6d5dba4aca977dd75d8/webm_page_bg_spanish.webm?t=1725033187"
+          ></video>
+        </article>
+        <article>
+          <header>
+            <h2>La mejor tienda de juegos</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Excepturi provident iste molestiae tempore vel? Voluptate laborum
+              quas in totam odio esse repudiandae quos perferendis? Quos dolore
+              voluptatum quaerat alias mollitia.
+            </p>
+            <section>
+              <article>
+                <div class="contenedor">
+                  <h3 style="text-align: center">Dota 2</h3>
+                  <img src="./img/dota.jpg"  alt="" width="200"/>
+                </div>
+              </article>
+              <article>
+                <div class="contenedor">
+                  <h3 style="text-align: center">Counter Strike</h3>
+                  <img src="./img/counter.avif" alt="" width="200"/>
+                </div>
+              </article>
+                <div class="contenedor">
+                  <h3 style="text-align: center">Left 4 Dead 2</h3>
+                  <img src="./img/left4dedad.avif" alt="" width="200"/>
+                </div>
+              </article>
+            </section>
+            <br>
+            <div style="margin: 10px;">
+                <a href="./src/login.html">Iniciar Sesion</a>
+                <a href="./src/register.html">Registrarse</a>
+            </div>
+           
+          </header>
+        </article>
+        <br>
+      </section>
+
+    </main>
+    <footer></footer>
+  </body>
+</html>
